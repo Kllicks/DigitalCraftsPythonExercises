@@ -1,0 +1,6 @@
+print("Please fill in the blanks below: ")
+print("___(Your Name)___'s favorite sport is ___(Sport)___")
+name = input("What is your name? ")
+sport = input("What is your favorite sport? ")
+#print(name + "'s favorite sport is " + sport)
+print("%s\'s favorite sport is %s" % (name, sport))

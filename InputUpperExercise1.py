@@ -1,0 +1,8 @@
+name = input("what is your name? ".upper())
+nameResponse = "hello, %s!" % (name).upper()
+print(nameResponse.upper())
+#nameLength = len(name)
+#print("YOUR NAME HAS %s LETTERS IN IT!" % (len(name)))
+# print("YOUR NAME HAS " + str(len(name)) + " LETTERS IN IT! AWESOME!")
+response = "your name has %s letters in it!" % (len(name))
+print(response.upper())
