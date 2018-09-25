@@ -22,6 +22,9 @@ ramit = {
 }
 
 print(ramit['email'])
+# for info in ramit:
+#     for email in ramit['email']:
+#         print(email, end = '')
 
 print(ramit['interests'][0])
 
