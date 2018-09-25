@@ -64,13 +64,8 @@ def triangle(size, size2, fcolor, pcolor):
     forward(size2)
     end_fill()
 triangle(106, 150, "yellow", "yellow")    
-# def draw_circle():
-#   begin_fill()
-#   fillcolor('red')
-#   pencolor('green')
-#   width(10)
-#   circle(180)
-#   end_fill()
-# draw_circle()
+
+def tornado(width, length, fcolor, pcolor):
+    
 
 input()
