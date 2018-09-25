@@ -1,4 +1,5 @@
 # Write a letter_histogram program that asks the user for input, and prints a dictionary containing the tally of how many times each letter in the alphabet was used in the word.
+
 user = input("Please enter a word: ")
 user = user.replace(" ", "")
 word_dict = {}
