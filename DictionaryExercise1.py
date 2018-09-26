@@ -11,7 +11,16 @@ phonebook_dict = {
 }
 
 print(phonebook_dict['Elizabeth'])
+# print(phonebook_dict)
 phonebook_dict['Kareem'] = '968-345-2345'
+# print(phonebook_dict)
 del phonebook_dict['Alice']
+# print(phonebook_dict)
 phonebook_dict['Bob'] = '968-345-2345'
-print(phonebook_dict)
+# print(phonebook_dict)
+
+for person in phonebook_dict:
+  print("%s: %s" % (person, phonebook_dict[person]))
+# or
+for person, phone in phonebook_dict.items():
+  print("%s: %s" % (person, phone))

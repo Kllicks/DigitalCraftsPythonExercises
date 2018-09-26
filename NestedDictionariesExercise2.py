@@ -22,13 +22,18 @@ ramit = {
 }
 
 print(ramit['email'])
-# for info in ramit:
-#     for email in ramit['email']:
-#         print(email, end = '')
 
 print(ramit['interests'][0])
 
 print(ramit['friends'][0]['email'])
+# or
+for info in ramit['friends']:
+  if info['name'] == 'Jasmine':
+    print(info['email'])
 
 print(ramit['friends'][1]['interests'][1])
+# or
+for info in ramit['friends']:
+  if info['name'] == 'Jan':
+    print(info['interests'][1])
   

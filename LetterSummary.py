@@ -14,3 +14,17 @@ for i in user:
         
 print(word_dict)
 
+# or
+# 
+# for letter in user:
+#     if letter in word_dict:
+#         word_dict[letter] += 1
+#     else:
+#         word_dict[letter] = 1
+# print(word_dict)
+# 
+# or
+# 
+# for letter in user:    
+#     word_dict[letter] = word_dict.get(letter, 0) + 1
+# print(word_dict)

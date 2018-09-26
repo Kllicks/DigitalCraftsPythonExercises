@@ -1,5 +1,8 @@
 # Given a histogram tally (one returned from either letter_histogram or word_summary), print the top 3 words or letters
 
+# Check solutions for other ways to do this.
+# Possibly find max and append to empty list instead of deleting highest value
+
 user = input("Please enter a sentence: ")
 user = user.lower()
 user = user.split(' ')
