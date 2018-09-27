@@ -17,28 +17,32 @@ hotel = {
   }
 }
 
-for floor in hotel:
-    for room in hotel[floor]:
-        print("floor:%s room:%s" % (floor,room))
-        for occupants in hotel[floor][room]:
-            print("\t\t" + occupants)
-print()
+# for floor in hotel:
+#     for room in hotel[floor]:
+#         print("floor:%s room:%s" % (floor,room))
+#         for occupants in hotel[floor][room]:
+#             print("\t\t" + occupants)
+# print()
 
-# check = input("Would you like to check in or out? ")
-# check = check.lower()
+check = input("Would you like to check in or out? ")
+check = check.lower()
 
-# if check == "in":
-#     floor = input("What floor would you like to be on? ")
-#     hotel[floor] = {floor}
-#     room = input("What room would you like? ")
+if check == "in":
+    floor = input("What floor would you like to be on? ")
+    room = input("What room would you like? ")
+    occupants = input("How many occupants are their? ")
     
-#     occupants = input("How many occupants are their? ")
-#     hotel[occupants]
-#     counter = 1
-#     while counter < int(occupants) + 1:
-#         name = input("Name of occupant %d: " % (counter))
-#         hotel[occupants] = name
-#         counter += 1
+    for floor in hotel:
+      for room in hotel[floor]:
+        for occupants in hotel[floor][room]:
+          
 
+    
+
+    counter = 1
+    while counter < int(occupants) + 1:
+        name = input("Name of occupant %d: " % (counter))
+        counter += 1
+print(hotel)
 # elif check == "out":
 #     print("So you're checking out")
